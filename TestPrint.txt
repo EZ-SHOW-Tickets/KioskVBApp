@@ -1,0 +1,1 @@
+Chr(2) & Chr(11) & Chr(2) & Chr(11) & Chr(13) & Chr(10) & Chr(2) & Chr(15) & Chr(13) & Chr(10) & Chr(2) & Chr(13) & Chr(10) & Chr(2) & Chr(15) & Chr(13) & Chr(10) & Chr(2) & Chr(13) & Chr(10) & Chr(2) & Chr(23) & Chr(11) & "VALID MONDAY TO FRIDAY" & Chr(2) & "pn"

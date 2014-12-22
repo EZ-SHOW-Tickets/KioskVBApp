@@ -1,0 +1,3 @@
+The cab file for your application has been built as 'C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\ticketmationNY.CAB'.
+
+There is also a batch file in the support directory (C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\Support\ticketmationNY.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.

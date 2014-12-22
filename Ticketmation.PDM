@@ -1,0 +1,591 @@
+[Root]
+Most Recent Package=Setup Ticketmation
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=
+C:\WINDOWS\system32\ieframe.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ticketmation
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package
+ProjectFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP
+ServerSideCab=
+File1=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\setup.exe
+File2=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\Setup.Lst
+File3=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\ticketmation.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=ticketmation
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|ticketmation]
+Icon1=ticketmation.exe
+Title1=ticketmation
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Setup TicketmationAO|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package
+
+[Package|Setup TicketmationAO|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup TicketmationAO|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup TicketmationAO|Files Found]
+
+[Package|Setup TicketmationAO|Files Released]
+FirstPageCC2.jpg=
+
+[Package|Setup TicketmationAO|Missing Dependency Information]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=
+C:\WINDOWS\system32\ieframe.dll=
+C:\WINDOWS\system32\iertutil.dll=
+
+[Package|Setup TicketmationAO|Out-of-Date Dependency Information]
+
+[Package|Setup TicketmationAO|Files Added]
+c:\cgc\projects\ticketmation\new_vb_app\wus.mdb=
+c:\cgc\projects\ticketmation\new_vb_app\firstpagecc.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\secondccpage.jpg=
+c:\windows\system32\iertutil.dll=
+c:\cgc\projects\ticketmation\new_vb_app\secondccpagenod.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\firstpageccnoae.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\firstpageccnoaenod.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\firstpageccnod.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\secondccpagenoae.jpg=
+c:\cgc\projects\ticketmation\new_vb_app\secondccpagenoaenod.jpg=
+
+[Package|Setup TicketmationAO|Files Removed]
+
+[Package|Setup TicketmationAO|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=Yes
+C:\WINDOWS\system32\iertutil.dll=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoD.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAE.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAENoD.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoD.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAE.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAENoD.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmationAO.exe=Yes
+
+[Package|Setup TicketmationAO|Configure Registry Files]
+Applicable=No
+
+[Package|Setup TicketmationAO|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup TicketmationAO|Install Locations]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=$(AppPath)
+C:\WINDOWS\system32\iertutil.dll=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC2.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAE.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAENoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAE.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAENoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmationAO.exe=$(AppPath)
+
+[Package|Setup TicketmationAO|Configure Shared Files]
+Applicable=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC2.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAE.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAENoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAE.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAENoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmationAO.exe=No
+
+[Package|Setup TicketmationAO|Distribution]
+Type=single
+Size=
+Title=Ticketmation
+
+[Package|Setup TicketmationAO|IconGroups]
+Group0=ticketmation
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup TicketmationAO|ticketmation]
+Icon1=ticketmation.exe
+Title1=ticketmation
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup TicketmationAO|Package]
+PackageFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package
+ProjectFolder=C:\CGC\Projects\Ticketmation\NEW_VB_APP
+ServerSideCab=
+File1=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\setup.exe
+File2=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\Setup.Lst
+File3=C:\CGC\Projects\Ticketmation\NEW_VB_APP\Package\ticketmationAO.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Setup Ticketmation|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\CGC\Projects
+
+[Package|Setup Ticketmation|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Ticketmation|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Ticketmation|Files Found]
+iertutil.dll=C:\WINDOWS\system32\iertutil.dll
+
+[Package|Setup Ticketmation|Files Released]
+FirstPageCC2.jpg=
+11_program_cover_final.jpg=
+10_program_cover.jpg=
+firstpageccnod.jpg=
+firstpageccnoaenod.jpg=
+firstpageccnoae.jpg=
+firstpagecc.jpg=
+
+[Package|Setup Ticketmation|Missing Dependency Information]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=
+C:\WINDOWS\system32\ieframe.dll=
+C:\WINDOWS\system32\iertutil.dll=
+C:\CGC\ActiveX\MTUSBHIDSwipe.ocx=
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\WINDOWS\system32\urlmon.dll=
+C:\CGC\Ticketmation\VbAppW7\MTUSBHIDSwipe.ocx=
+C:\WINDOWS\system32\MTUSBHIDSwipe.ocx=
+C:\CGC\Ticketmation\VBApp\ticketmation.exe=
+
+[Package|Setup Ticketmation|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSWINSCK.OCX=
+
+[Package|Setup Ticketmation|Files Added]
+c:\cgc\ticketmation\vbapp\wus.mdb=
+c:\cgc\ticketmation\vbapp\secondccpage.jpg=
+iertutil.dll=
+c:\cgc\ticketmation\vbapp\secondccpagenod.jpg=
+c:\cgc\ticketmation\vbapp\secondccpagenoae.jpg=
+c:\cgc\ticketmation\vbapp\secondccpagenoaenod.jpg=
+c:\cgc\ticketmation\vbapp\ny_2010_logo.jpg=
+c:\cgc\ticketmation\vbapp\ticketmation_logo_trans4.gif=
+c:\cgc\ticketmation\vbapp\laas.gif=
+c:\cgc\ticketmation\vbapp\ny2012_logo.jpg=
+C:\CGC\Ticketmation\VBApp\ticketmation.exe=
+
+[Package|Setup Ticketmation|Files Removed]
+c:\cgc\ticketmation\vbapp\10_program_cover.jpg=
+c:\cgc\ticketmation\vbapp\ny_2010_logo.jpg=
+c:\cgc\ticketmation\vbapp\11_program_cover_final.jpg=
+c:\cgc\ticketmation\vbapp\firstpagecc.jpg=
+c:\cgc\ticketmation\vbapp\firstpageccnoae.jpg=
+c:\cgc\ticketmation\vbapp\firstpageccnoaenod.jpg=
+c:\cgc\ticketmation\vbapp\firstpageccnod.jpg=
+c:\cgc\ticketmation\vbapp\laas.gif=
+c:\cgc\ticketmation\vbapp\secondccpage.jpg=
+c:\cgc\ticketmation\vbapp\secondccpagenoae.jpg=
+c:\cgc\ticketmation\vbapp\secondccpagenoaenod.jpg=
+c:\cgc\ticketmation\vbapp\secondccpagenod.jpg=
+c:\cgc\ticketmation\vbapp\ny2012_logo.jpg=
+c:\cgc\ticketmation\vbapp\ticketmation1.exe=
+
+[Package|Setup Ticketmation|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msflxgrd.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\iertutil.dll=Yes
+C:\CGC\Ticketmation\VBApp\WUS.mdb=Yes
+C:\CGC\Ticketmation\VBApp\SecondCCPage.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoD.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAE.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAENoD.jpg=No
+C:\CGC\Ticketmation\VBApp\NY_2010_logo.jpg=No
+C:\WINDOWS\system32\urlmon.dll=Yes
+C:\CGC\Ticketmation\VBApp\ticketmation_logo_trans4.gif=Yes
+C:\CGC\Ticketmation\VBApp\laas.gif=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\CGC\Ticketmation\VBApp\NY2012_logo.jpg=No
+C:\CGC\Ticketmation\VBApp\Ticketmation.exe=Yes
+C:\WINDOWS\system32\ssa3d30.ocx=Yes
+C:\WINDOWS\system32\MTUSBHIDSwipe.ocx=Yes
+C:\CGC\Ticketmation\VBApp\ticketmation1.exe=No
+
+[Package|Setup Ticketmation|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Ticketmation|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Ticketmation|Install Locations]
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\VB App\dsintx.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\MTUSBHIDSwipe.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=$(AppPath)
+C:\WINDOWS\system32\iertutil.dll=$(WinSysPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC2.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAE.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAENoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAE.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAENoD.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmationNY.exe=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\10_program_cover.jpg=$(AppPath)
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\NY_2010_logo.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\ticketmation.exe=$(AppPath)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\CGC\ActiveX\MTUSBHIDSwipe.ocx=$(WinSysPath)
+C:\CGC\Ticketmation\VBApp\WUS.mdb=$(AppPath)
+C:\CGC\Ticketmation\VBApp\FirstPageCC.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\SecondCCPage.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoD.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoAE.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoAENoD.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoD.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAE.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAENoD.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\10_program_cover.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\NY_2010_logo.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\11_program_cover_final.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\ticketmationUpdate.exe=$(AppPath)
+C:\WINDOWS\system32\urlmon.dll=$(WinSysPath)
+C:\CGC\Ticketmation\VBApp\ticketmation_logo_trans4.gif=$(AppPath)
+C:\CGC\Ticketmation\VBApp\laas.gif=$(AppPath)
+C:\CGC\Ticketmation\VBApp\NY2012_logo.jpg=$(AppPath)
+C:\CGC\Ticketmation\VBApp\ticketmation011214.exe=$(AppPath)
+C:\CGC\Ticketmation\VbAppW7\MTUSBHIDSwipe.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ssa3d30.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MTUSBHIDSwipe.ocx=$(WinSysPath)
+
+[Package|Setup Ticketmation|Configure Shared Files]
+Applicable=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmation.exe=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\WUS.mdb=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPage.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCC2.jpg=Yes
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAE.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoAENoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\FirstPageCCNoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAE.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\SecondCCPageNoAENoD.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\ticketmationNY.exe=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\10_program_cover.jpg=No
+C:\CGC\Projects\Ticketmation\NEW_VB_APP\NY_2010_logo.jpg=No
+C:\CGC\Ticketmation\VBApp\ticketmation.exe=No
+C:\CGC\Ticketmation\VBApp\WUS.mdb=No
+C:\CGC\Ticketmation\VBApp\FirstPageCC.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPage.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoD.jpg=No
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoAE.jpg=No
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoAENoD.jpg=No
+C:\CGC\Ticketmation\VBApp\FirstPageCCNoD.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAE.jpg=No
+C:\CGC\Ticketmation\VBApp\SecondCCPageNoAENoD.jpg=No
+C:\CGC\Ticketmation\VBApp\10_program_cover.jpg=No
+C:\CGC\Ticketmation\VBApp\NY_2010_logo.jpg=No
+C:\CGC\Ticketmation\VBApp\11_program_cover_final.jpg=No
+C:\CGC\Ticketmation\VBApp\ticketmationUpdate.exe=No
+C:\CGC\Ticketmation\VBApp\ticketmation_logo_trans4.gif=No
+C:\CGC\Ticketmation\VBApp\laas.gif=No
+C:\CGC\Ticketmation\VBApp\NY2012_logo.jpg=No
+C:\CGC\Ticketmation\VBApp\ticketmation011214.exe=No
+
+[Package|Setup Ticketmation|Distribution]
+Type=single
+Size=
+Title=Ticketmation
+
+[Package|Setup Ticketmation|IconGroups]
+Group0=ticketmation
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Setup Ticketmation|ticketmation]
+Icon1=ticketmation.exe
+Title1=ticketmation
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup Ticketmation|Package]
+PackageFolder=C:\CGC\Projects
+ProjectFolder=C:\CGC\Ticketmation\VBApp
+ServerSideCab=
+File1=C:\CGC\Projects\setup.exe
+File2=C:\CGC\Projects\Setup.Lst
+File3=C:\CGC\Projects\ticketmation1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

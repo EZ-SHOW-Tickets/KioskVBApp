@@ -1,0 +1,17 @@
+frmVerify = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+MiTrade = 154, 203, 1414, 706, C
+frmPrinting = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmTicketStock = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSpecifyTickets = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmMain = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmStartup = 176, 232, 1436, 735, C, 0, 0, 0, 0, C
+frmMainAN = 132, 174, 1392, 677, C, 66, 87, 1326, 590, C
+frmPINPAD = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmTestInterface = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmWelcome = 0, 0, 0, 0, C, 110, 145, 1370, 648, C
+fTicketmation = 88, 116, 1348, 619, C, 66, 87, 1326, 590, C
+frmANAuthorization = 0, 0, 0, 0, C, 132, 174, 1392, 677, C
+frmWebBrowser = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmBatch = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmZipCode = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmCCSwipe = 0, 0, 0, 0, C, 0, 0, 0, 0, C
