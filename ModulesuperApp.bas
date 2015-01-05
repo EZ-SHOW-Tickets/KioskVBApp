@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module1"
-Global Const strConnectionString = "DRIVER={SQL Server};SERVER=207.171.1.162;DATABASE=Ticketmation;UID=sa;PWD=cgc0023"
+Global Const strConnectionString = "DRIVER={SQL Server};SERVER=54.241.244.28;DATABASE=Ticketmation;UID=sa;PWD=s.blufLUL#^0$\M\1%FZ"
 Global IP As String
 Global wrkjet As Workspace
 Global db As Database
@@ -337,7 +337,7 @@ Dim errcode As Long
 Dim url As String
 Dim localFileName As String
 
-url = "http://207.171.1.163/TicketmationUpdate.exe"
+url = "http://www.cgc-services/Ticketmation/update/TicketmationUpdate"
 localFileName = App.Path & "\Ticketmation" & Format(Now, "mmddyy") & ".exe"
 
 errcode = URLDownloadToFile(0, url, localFileName, 0, 0)
