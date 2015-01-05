@@ -98,7 +98,7 @@ Next i
 '        WebBrowser1.Navigate "http://54.241.244.28/ticketmation/kiosk/ProcessPaymentfromkioskV3.asp?BCode=" & Format(IP, "0#") & Trim(SessionCounter) & Trim(str(SessionID)) & "&Amount=" & Format(TotalPrice, "0#.00") & "&Track1=" & AccountNumber & "&Device=" & IP & "&Name=" & CardName & "&ZIP=" & ZipCode & "&STime=" & SwipTime & "&SQLShowid=" & SQLShowID & "&Batch=" & iBatch & "&Stock=" & TicketStock - iTixSold & strTixSold
 '    End If
 'Else
-    Timerwait.interval = 5000
+    Timerwait.interval = 10000 'Wait 10 seconds for web response
     Timerwait.Enabled = True
     If Len(Trim(ZipCode)) <> 5 Then
         WebBrowser1.Navigate "https://www.cgc-services.com/ticketmation/kiosk/ProcessPaymentfromkioskV3.asp?BCode=" & Format(IP, "0#") & Trim(SessionCounter) & Trim(str(SessionID)) & "&Amount=" & Format(TotalPrice, "0#.00") & "&Track1=" & AccountNumber & "&Device=" & IP & "&Name=" & CardName & "&STime=" & SwipTime & "&SQLShowid=" & SQLShowID & "&Batch=" & iBatch & "&Stock=" & TicketStock - iTixSold & strTixSold

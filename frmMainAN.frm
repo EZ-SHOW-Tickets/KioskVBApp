@@ -1340,7 +1340,7 @@ Set rs = db.OpenRecordset("Select * from INIT")
 txtIP.text = rs("IPAddress")
 txtSessionCounter.text = rs("SessionCounter")
 
-Set rs = db.OpenRecordset("Select * from SHOWS where ShowEndDate >=#" & Now() & "#  order by ShowStartDate")
+Set rs = db.OpenRecordset("Select top 1 * from SHOWS where ShowEndDate >=#" & Now() & "#  order by ShowStartDate")
 If rs.EOF Then
     MsgBox "There are no current events in the database"
     ComboEvents.text = "NO EVENTS AVAILABLE"
